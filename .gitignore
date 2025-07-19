@@ -1,15 +1,16 @@
-# Node dependencies
+# Node.js dependencies
 node_modules/
 
-# Build output
+# Next.js build output
 .next/
-out/
-build/
 
-# Environment variables (sensitive data)
+# Log files
+npm-debug.log*
+
+# Environment variables
 .env
 .env.local
 
-# Editor configs (optional)
-.vscode/
+# System files
 .DS_Store
+Thumbs.db
